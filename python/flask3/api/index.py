@@ -9,6 +9,7 @@ def get():
 
 @app.route("/set")
 def set():
+    global data
     data += 1
     return "Done"
 
